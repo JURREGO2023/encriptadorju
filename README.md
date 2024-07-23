@@ -18,7 +18,7 @@
   </a>
 
 
- [▶ Page Link ](https://shields.io/badges)
+ [▶ GIT PAGE "Encriptador de texto JU"](https://jurrego2023.github.io/encriptadorju/)
 </div>
 
 ¡Bienvenidas y bienvenidos a nuestro primer desafío!
