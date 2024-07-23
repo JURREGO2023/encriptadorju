@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <Link rel="stylesheet" href="css/styles.css"></LInk>
+    <title>Encriptadorju</title>
+    
+</head>
+<body>
+
+    <!--encabezado-->
+    
+    <header>
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="#">Ing. Jeisson Urrego</a></li>
+                <li><a href="https://cvjeissonurrego.my.canva.site/">CV</a></li>
+                <li><a href="portafolio.html">Curriculum</a></li>
+            </ul>
+        </nav>
+        <img src="img/logojey.png" alt="Logo JU" class="logo">    
+
+    </header>
+    
+    <!--principal-->
+    <main>
+           <section class="encriptadorju">
+            <textarea class="encriptar" placeholder="Ingrese el texto aqui"></textarea>
+                <div class="encriptadorju-aviso">
+                    <img src="img/aviso.svg" alt="Imagen Aviso" class="img-aviso">
+                    <p class="texto-aviso">Solo letras minúsculas y sin acentos</p>  
+                </div>
+                <div class="encriptadorju-contenedor">
+                    <button type="submit" class="btn-encriptar"> Encriptar!</button>
+                    <button type="submit" class="btn-desencriptar"> Desencriptar!</button>
+                </div>
+
+           </section> 
+           <section class="tarjeta">
+            <div class="tarjeta-contenedor">
+                <img src="img/muñeco.jpg" alt="Imagen Muñeco" class="img-muñeco">  
+                <p class="texto-uno">Ningún mensaje fue encontrado</p>
+                <p class="texto-dos">Ingresel el texto que deseas encriptar o desencriptar</p>
+            </div>
+            <textarea type="mensaje" class="evaluar" readonly></textarea>
+            <button type="submit" class="btn-copiar"> Copiar</button>
+           </section>
+    </main>
+    <!--pie de pagina--> 
+    <footer>
+        <p class="Copyright">&copy; Copyright 2024   - Encriptador de Texto - desarrollado por Jeisson Urrego</p>
+        <a herf="#" rel="">
+
+            <img src="img/linkedin.svg" alt="Logo linkedin" class="linked">    
+            </a>
+            <a herf="#" rel="">
+
+                <img src="img/github.svg" alt="Logo Github" class="git">    
+                </a>    
+    </footer> 
+    <script src="js/encriptador.js"></script>
+</body>
+</html>
